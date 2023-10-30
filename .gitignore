@@ -1,0 +1,22 @@
+# Environment Variable #
+########################
+*.env
+*.pdf
+
+# Ignore venv
+venv
+
+# Ignore python folder
+Python
+
+# Ignore SQL
+*.sql
+
+# Ignore CSV
+*.csv
+
+# Ignore old files
+old
+
+# Ignore cache
+__pycache__
