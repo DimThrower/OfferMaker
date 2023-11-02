@@ -8,7 +8,10 @@ import os
 import pyautogui
 import ctypes
 from selenium.webdriver.firefox.options import Options
-from main.Static.HTML import TextFields, CheckBoxes, Buttons
+from main.Static.HTML import (TextFields, CheckBoxes, Buttons, TREC_el_pg_1,
+                              TREC_el_pg_2,TREC_el_pg_3,TREC_el_pg_4,TREC_el_pg_5,
+                              TREC_el_pg_6,TREC_el_pg_7,TREC_el_pg_8,TREC_el_pg_9,
+                              TREC_el_pg_10, TREC_el_pg_11)
 from main.Scripts import misc
 from main.Static import settings
 import pygetwindow as gw
@@ -18,7 +21,7 @@ def create_offer(doc_name, address, seller_name,
                 closing_date, title_company, legal_description,
                 title_company_address,
                 earnest_money, option_money, city, zip_code,
-                subdivision, county, escrow_agent, option_days,
+                subdivision, county, escrow_agent, option_days, trec_path,
                 ):
     
     try:
@@ -38,6 +41,8 @@ def create_offer(doc_name, address, seller_name,
         text_field = TextFields()
         check_box = CheckBoxes()
         btns = Buttons()
+
+        
 
         # Define some repetitive inputs
         initial = ''
@@ -67,7 +72,7 @@ def create_offer(doc_name, address, seller_name,
         browser.switch_to.window(browser.window_handles[-1])
 
         # Open the pdf TREC file
-        browser.get(settings.blank_TREC_file_path)
+        browser.get(trec_path)
 
         # Click previous a bunch to go back to the first page
         for _ in range(1, 12):
@@ -75,8 +80,8 @@ def create_offer(doc_name, address, seller_name,
                 By.CSS_SELECTOR, btns.previous).click()
 
         # Wait for the pdf to load so elements can find all the elements
-        misc.wait_until_appeared_BLOCK(
-            browser=browser, css_element=text_field.seller, timeout=10)
+        # misc.wait_until_appeared_BLOCK(
+        #     browser=browser, css_element=text_field.seller, timeout=2)
 
         # Scale the page so that all the elements are visable
         browser.find_element(
@@ -87,62 +92,65 @@ def create_offer(doc_name, address, seller_name,
         next_page_btn = browser.find_element(
             By.CSS_SELECTOR, btns.next)
 
+        
+
         # First Page
-        browser.find_element(By.CSS_SELECTOR, text_field.seller).send_keys(
+        el_pg_1 = TREC_el_pg_1(browser=browser)
+        el_pg_1.seller.send_keys(
             text_none_check(seller_name))
-        browser.find_element(By.CSS_SELECTOR, text_field.buyer).send_keys(
+        el_pg_1.buyer.send_keys(
             text_none_check(buyer_name))
-        browser.find_element(By.CSS_SELECTOR, text_field.lot).send_keys(
+        el_pg_1.lot.send_keys(
             text_none_check(lot))
-        browser.find_element(By.CSS_SELECTOR, text_field.block).send_keys(
+        el_pg_1.block.send_keys(
             text_none_check(block))
-        browser.find_element(By.CSS_SELECTOR, text_field.subdivision).send_keys(
+        el_pg_1.subdivision.send_keys(
             text_none_check(subdivision))
-        browser.find_element(By.CSS_SELECTOR, text_field.city).send_keys(
+        el_pg_1.city.send_keys(
             text_none_check(city))
-        browser.find_element(By.CSS_SELECTOR, text_field.county).send_keys(
+        el_pg_1.county.send_keys(
             text_none_check(county))
-        browser.find_element(By.CSS_SELECTOR, text_field.address).send_keys(
+        el_pg_1.address.send_keys(
             text_none_check(f'{address} {zip_code}'))
-        browser.find_element(By.CSS_SELECTOR, text_field.exclusions).send_keys(
+        el_pg_1.exclusions.send_keys(
             text_none_check(na))
-        browser.find_element(By.CSS_SELECTOR, text_field.cash_portion).send_keys(
+        el_pg_1.cash_portion.send_keys(
             text_none_check(price))
-        browser.find_element(By.CSS_SELECTOR, text_field.finance_portion).send_keys(
+        el_pg_1.finance_portion.send_keys(
             text_none_check(na))
-        browser.find_element(By.CSS_SELECTOR, text_field.total_price).send_keys(
+        el_pg_1.total_price.send_keys(
             text_none_check(price))
-        browser.find_element(By.CSS_SELECTOR, text_field.init_pg1).send_keys(
+        el_pg_1.init_pg1.send_keys(
             text_none_check(initial))
         time.sleep(sleep)
         # Click the button to the next  page
         next_page_btn.click()
         time.sleep(sleep)
 
+        
         # Second Page
-        browser.find_element(By.CSS_SELECTOR, text_field.prop_add1).send_keys(
+        el_pg_2 = TREC_el_pg_2(browser=browser)
+        el_pg_2.prop_add1.send_keys(
             text_none_check(contract_concerning))
-        browser.find_element(By.CSS_SELECTOR, text_field.escrow_agent).send_keys(
+        el_pg_2.escrow_agent.send_keys(
             text_none_check(escrow_agent))
-        browser.find_element(By.CSS_SELECTOR, text_field.title_address).send_keys(
+        el_pg_2.title_address.send_keys(
             text_none_check(title_company_address))
-        browser.find_element(By.CSS_SELECTOR, text_field.em).send_keys(
+        el_pg_2.em.send_keys(
             text_none_check(earnest_money))
-        browser.find_element(By.CSS_SELECTOR, text_field.om).send_keys(
+        el_pg_2.om.send_keys(
             text_none_check(option_money))
-        browser.find_element(By.CSS_SELECTOR, text_field.add_em).send_keys(
+        el_pg_2.add_em.send_keys(
             text_none_check(na))
-        browser.find_element(By.CSS_SELECTOR, text_field.add_em_days).send_keys(
+        el_pg_2.add_em_days.send_keys(
             text_none_check(na))
-        browser.find_element(By.CSS_SELECTOR, text_field.option_days).send_keys(
+        el_pg_2.option_days.send_keys(
             text_none_check(option_days))
-        browser.find_element(
-            By.CSS_SELECTOR, check_box.buyer_pay_title_policy).click()
-        browser.find_element(By.CSS_SELECTOR, text_field.title_company_name).send_keys(
+        el_pg_2.buyer_pay_title_policy.click()
+        el_pg_2.title_name.send_keys(
             text_none_check(title_company))
-        browser.find_element(
-            By.CSS_SELECTOR, check_box.no_amend_or_del).click()
-        browser.find_element(By.CSS_SELECTOR, text_field.init_pg2).send_keys(
+        el_pg_2.no_amend_or_del.click()
+        el_pg_2.init_pg2.send_keys(
             text_none_check(initial))
         time.sleep(sleep)
         # Click the button to the next  page
@@ -150,15 +158,15 @@ def create_offer(doc_name, address, seller_name,
         time.sleep(sleep)
 
         # Third Page
-        browser.find_element(By.CSS_SELECTOR, text_field.prop_add2).send_keys(
+        el_pg_3 = TREC_el_pg_3(browser=browser)
+        el_pg_3.prop_add2.send_keys(
             text_none_check(contract_concerning))
-        browser.find_element(
-            By.CSS_SELECTOR, check_box.buyer_pay_survey).click()
-        browser.find_element(By.CSS_SELECTOR, text_field.survey_days).send_keys(
+        el_pg_3.buyer_pay_survey.click()
+        el_pg_3.survey_days.send_keys(
             text_none_check('5'))
-        browser.find_element(By.CSS_SELECTOR, text_field.objections).send_keys(
+        el_pg_3.objections.send_keys(
             text_none_check(objecions_use))
-        browser.find_element(By.CSS_SELECTOR, text_field.objection_days).send_keys(
+        el_pg_3.objection_days.send_keys(
             text_none_check('3'))
         # if 'yes' in prop_dict[pp.hoa]:
         #     browser.find_element(
@@ -167,9 +175,8 @@ def create_offer(doc_name, address, seller_name,
         #     browser.find_element(
         #         By.CSS_SELECTOR, check_box.no_hoa).click()
 
-        browser.find_element(
-            By.CSS_SELECTOR, check_box.no_hoa).click()
-        browser.find_element(By.CSS_SELECTOR, text_field.init_pg3).send_keys(
+        el_pg_3.no_hoa.click()
+        el_pg_3.init_pg3.send_keys(
             text_none_check(initial))
         time.sleep(sleep)
         # Click the button to the next  page
@@ -177,15 +184,15 @@ def create_offer(doc_name, address, seller_name,
         time.sleep(sleep)
 
         # Fourth Page
-        browser.find_element(By.CSS_SELECTOR, text_field.prop_add3).send_keys(
+        el_pg_4 = TREC_el_pg_4(browser=browser)
+        el_pg_4.prop_add3.send_keys(
             text_none_check(contract_concerning))
-        browser.find_element(By.CSS_SELECTOR, text_field.req_notices).send_keys(
+        el_pg_4.req_notices.send_keys(
             text_none_check(na))
-        browser.find_element(
-            By.CSS_SELECTOR, check_box.seller_disclosure).click()
-        browser.find_element(By.CSS_SELECTOR, text_field.sd_days).send_keys(
+        el_pg_4.seller_disclosure.click()
+        el_pg_4.sd_days.send_keys(
             text_none_check('5'))
-        browser.find_element(By.CSS_SELECTOR, text_field.init_pg4).send_keys(
+        el_pg_4.init_pg4.send_keys(
             text_none_check(initial))
         time.sleep(sleep)
         # Click the button to the next  page
@@ -193,19 +200,19 @@ def create_offer(doc_name, address, seller_name,
         time.sleep(sleep)
 
         # Fifth Page
-        browser.find_element(By.CSS_SELECTOR, text_field.prop_add4).send_keys(
+        el_pg_5 = TREC_el_pg_5(browser=browser)
+        el_pg_5.prop_add4.send_keys(
             text_none_check(contract_concerning))
-        browser.find_element(
-            By.CSS_SELECTOR, check_box.as_is).click()
-        browser.find_element(By.CSS_SELECTOR, text_field.service_contract).send_keys(
+        el_pg_5.as_is.click()
+        el_pg_5.service_contract.send_keys(
             text_none_check(na))
-        browser.find_element(By.CSS_SELECTOR, text_field.broker_discolsure).send_keys(
+        el_pg_5.broker_discolsure.send_keys(
             text_none_check(""))#'Buyer has an active realtor license'))
         # Set the closing date
         cd = closing_date
-        browser.find_element(By.CSS_SELECTOR, text_field.closing_date).send_keys(
+        el_pg_5.closing_date.send_keys(
             text_none_check(cd))
-        browser.find_element(By.CSS_SELECTOR, text_field.init_pg5).send_keys(
+        el_pg_5.init_pg5.send_keys(
             text_none_check(initial))
         time.sleep(sleep)
         # Click the button to the next  page
@@ -213,19 +220,19 @@ def create_offer(doc_name, address, seller_name,
         time.sleep(sleep)
 
         # Sixth Page
-        browser.find_element(By.CSS_SELECTOR, text_field.prop_add5).send_keys(
+        el_pg_6 = TREC_el_pg_6(browser=browser)
+        el_pg_6.prop_add5.send_keys(
             text_none_check(contract_concerning))
-        browser.find_element(
-            By.CSS_SELECTOR, check_box.buyer_poss).click()
-        browser.find_element(By.CSS_SELECTOR, text_field.special_prov1).send_keys(
+        el_pg_6.buyer_poss.click()
+        el_pg_6.special_prov1.send_keys(
             text_none_check(legal_description))
-        browser.find_element(By.CSS_SELECTOR, text_field.special_prov2).send_keys(
+        el_pg_6.special_prov2.send_keys(
             text_none_check('Buyers agrees to pay all standard closing cost, excluding due taxes, liens, and brokerage fees'))
-        browser.find_element(By.CSS_SELECTOR, text_field.special_prov3).send_keys(
+        el_pg_6.special_prov3.send_keys(
             text_none_check('Option period to begin day after contract lockbox placed on property and code given to buyer'))
-        browser.find_element(By.CSS_SELECTOR, text_field.other_exp).send_keys(
+        el_pg_6.other_exp.send_keys(
             text_none_check(na))
-        browser.find_element(By.CSS_SELECTOR, text_field.init_pg6).send_keys(
+        el_pg_6.init_pg6.send_keys(
             text_none_check(initial))
         time.sleep(sleep)
         # Click the button to the next  page
@@ -233,9 +240,10 @@ def create_offer(doc_name, address, seller_name,
         time.sleep(sleep)
 
         # Seventh Page
-        browser.find_element(By.CSS_SELECTOR, text_field.prop_add6).send_keys(
+        el_pg_7 = TREC_el_pg_7(browser=browser)
+        el_pg_7.prop_add6.send_keys(
             text_none_check(contract_concerning))
-        browser.find_element(By.CSS_SELECTOR, text_field.init_pg7).send_keys(
+        el_pg_7.init_pg7.send_keys(
             text_none_check(initial))
         time.sleep(sleep)
         # Click the button to the next  page
@@ -243,19 +251,19 @@ def create_offer(doc_name, address, seller_name,
         time.sleep(sleep)
 
         # Eighth Page
-        browser.find_element(By.CSS_SELECTOR, text_field.prop_add7).send_keys(
+        el_pg_8 = TREC_el_pg_8(browser=browser)
+        el_pg_8.prop_add7.send_keys(
             text_none_check(contract_concerning))
-        browser.find_element(By.CSS_SELECTOR, text_field.buy_address).send_keys(
+        el_pg_8.buy_address.send_keys(
             text_none_check(""))#'2404 S Grand Blvd, Pearland, TX 77581'))
-        browser.find_element(By.CSS_SELECTOR, text_field.buy_email).send_keys(
+        el_pg_8.buy_email.send_keys(
             text_none_check(""))#'info@rightwayhomesolutions.com'))
         # if 'yes' in prop_dict[pp.hoa]:
         #     browser.find_element(
         #         By.CSS_SELECTOR, check_box.hoa_addendum).click()
         # if prop_dict[pp.lead_based_paint] is not None:
-        browser.find_element(
-            By.CSS_SELECTOR, check_box.lbp_addendum).click()
-        browser.find_element(By.CSS_SELECTOR, text_field.init_pg8).send_keys(
+        el_pg_8.lbp_addendum.click()
+        el_pg_8.init_pg8.send_keys(
             text_none_check(initial))
         time.sleep(sleep)
         # Click the button to the next  page
@@ -263,7 +271,8 @@ def create_offer(doc_name, address, seller_name,
         time.sleep(sleep)
 
         # Ninth Page
-        browser.find_element(By.CSS_SELECTOR, text_field.prop_add8).send_keys(
+        el_pg_9 = TREC_el_pg_9(browser=browser)
+        el_pg_9.prop_add8.send_keys(
             text_none_check(contract_concerning))
         time.sleep(sleep)
         # Click the button to the next  page
@@ -271,7 +280,8 @@ def create_offer(doc_name, address, seller_name,
         time.sleep(sleep)
 
         # Temth Page
-        browser.find_element(By.CSS_SELECTOR, text_field.prop_add9).send_keys(
+        el_pg_10 = TREC_el_pg_10(browser=browser)
+        el_pg_10.prop_add9.send_keys(
             text_none_check(contract_concerning))
         time.sleep(sleep)
         # Click the button to the next  page
@@ -279,7 +289,8 @@ def create_offer(doc_name, address, seller_name,
         time.sleep(sleep)
 
         # Eleventh Page
-        browser.find_element(By.CSS_SELECTOR, text_field.prop_add10).send_keys(
+        el_pg_11 = TREC_el_pg_11(browser=browser)
+        el_pg_11.prop_add10.send_keys(
             text_none_check(contract_concerning))
 
         # Click the download button
@@ -326,27 +337,17 @@ def create_offer(doc_name, address, seller_name,
                 # Press enter on the Save as window to save pdf
                 pyautogui.press('enter')
 
-            if time.time() - start_time > 5:
-                # If the time limit is reached
-                # Remove the folder if it did not save
-                os.remove(file_path)
-                print("File deleted successfully.")
-                break
-
-            try:
-
-                if os.path.isfile(file_path):
-                    print(f'File saved: {file_path}')
-
-                else:
-                    time.sleep(1)
-                    print(f'File did not save: {file_path}')
-
-            except IndexError:
-                time.sleep(1)
+            if time.time() - start_time > 20:
                 print(f'File did not save: {file_path}')
+                return "file already exist", file_path
                 
-        print(f'File Already Exist')
+            if os.path.isfile(file_path):
+                print(f'File saved: {file_path}')
+                return "file saved", file_path
+
+            else:
+                continue
 
     finally:
+        time.sleep(1)
         browser.quit()

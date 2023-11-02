@@ -2,10 +2,12 @@ import tkinter as tk
 from tkinter import Entry, Label, Checkbutton, StringVar
 from main.Scripts import misc, tax_scrape, write_offer
 import tkinter.messagebox
-
+from main.Static.settings import TREC
     
 
 def submit():
+
+    trec = TREC()
 
     address = address_var.get()
     doc_name = doc_name_var.get()
@@ -30,6 +32,8 @@ def submit():
     title_company_address_default = title_company_address_default_var.get() 
     option_money_default = option_money_default_var.get()
     option_days_default = option_days_default_var.get()
+
+    contract_type = variable.get()
 
         # Define the fields to validate as a list of tuples
     fields_to_validate = [
@@ -94,6 +98,11 @@ def submit():
         zip_code = tax_details['zip_code']
         county = tax_details['county']
 
+        if contract_type == "Signed":
+            trec_path = trec.signed
+        else:
+            trec_path = trec.not_signed
+
         print("Document Name:", doc_name)
         print("Seller Name:", seller_name)
         print("Buyer Name:", buyer_name)
@@ -112,8 +121,9 @@ def submit():
         print('City:', city)
         print('Zip Code:', zip_code)
         print("County:", county)
+        print("Contract Type:", contract_type)
 
-        write_offer.create_offer(
+        file_result, file_path = write_offer.create_offer(
             doc_name=doc_name, 
             address=address, 
             seller_name=seller_name,
@@ -133,7 +143,15 @@ def submit():
             county=county, 
             escrow_agent=escrow_officer, 
             option_days=option_days,
+            trec_path=trec_path,
         )
+
+        if file_result == "file saved":
+            tkinter.messagebox.showinfo("Success", f"File saved at {file_path}")
+        if file_result == "file already exist":
+            tkinter.messagebox.showerror("Failed", f"File already exist at {file_path}")
+        if file_result == "error":
+            tkinter.messagebox.showerror("Failed", f"Internal error, contact admin")
         
     else:
         # Display an error message on the GUI
@@ -156,9 +174,16 @@ def submit():
 
     #property_details = tax_scrape()
 
-
 app = tk.Tk()
 app.title("Offer Input Form")
+
+
+
+options = ["Signed", "Not Signed"]
+
+# Create a tkinter variable to store the selected option
+variable = tk.StringVar(app)
+variable.set(options[0])  # Set the default selected option
 
 # Labels
 Label(app, text="Address:").grid(row=0, column=0)
@@ -173,7 +198,7 @@ Label(app, text="Title Company Address:").grid(row=8, column=0)
 Label(app, text="Earnest Money:").grid(row=9, column=0)
 Label(app, text="Option Money:").grid(row=10, column=0)
 Label(app, text="Option Days:").grid(row=11, column=0)
-
+Label(app, text="Contract Type:").grid(row=12, column=0)
 
 
 # Entry fields with adjusted width
@@ -205,6 +230,15 @@ earnest_money_entry = Entry(app, textvariable=earnest_money_var, width=entry_wid
 option_money_entry = Entry(app, textvariable=option_money_var, width=entry_width)
 option_days_entry = Entry(app, textvariable=option_days_var, width=entry_width)
 
+# Create the OptionMenu widget
+dropdown = tk.OptionMenu(app, variable, *options)
+dropdown.grid(row=12, column=1)
+
+# Create a label to display the selected option
+label = tk.Label(app, text='')
+label.grid(row=13, column=0, columnspan=2)
+
+
 address_entry.grid(row=0, column=1)
 doc_name_entry.grid(row=1, column=1)
 seller_name_entry.grid(row=2, column=1)
@@ -229,6 +263,8 @@ title_company_address_default_var = tk.BooleanVar()
 option_money_default_var = tk.BooleanVar()
 option_days_default_var = tk.BooleanVar()
 
+
+
 def toggle_entry_state(entry, var):
     if var.get():
         entry.config(state="disabled")
@@ -245,7 +281,29 @@ Checkbutton(app, text="Default", variable=title_company_address_default_var, com
 Checkbutton(app, text="Default", variable=option_money_default_var, command=lambda: toggle_entry_state(option_money_entry, option_money_default_var)).grid(row=10, column=2)
 Checkbutton(app, text="Default", variable=option_days_default_var, command=lambda: toggle_entry_state(option_days_entry, option_days_default_var)).grid(row=11, column=2)
 
+
+
+# Set the initial values for default checkboxes
+doc_name_default_var.set(True)
+seller_name_defualt_var.set(True)
+buyer_name_default_var.set(True)
+closing_date_default_var.set(True)
+title_company_default_var.set(True)
+escrow_officer_default_var.set(True)
+title_company_address_default_var.set(True)
+option_money_default_var.set(True)
+option_days_default_var.set(True)
+toggle_entry_state(doc_name_entry, doc_name_default_var)
+toggle_entry_state(seller_name_entry, seller_name_defualt_var)
+toggle_entry_state(buyer_name_entry, buyer_name_default_var)
+toggle_entry_state(closing_date_entry, closing_date_default_var)
+toggle_entry_state(title_company_entry, title_company_default_var)
+toggle_entry_state(escrow_officer_entry, escrow_officer_default_var)
+toggle_entry_state(title_company_address_entry, title_company_address_default_var)
+toggle_entry_state(option_money_entry, option_money_default_var)
+toggle_entry_state(option_days_entry, option_days_default_var)
+
 # Submit button
-tk.Button(app, text="Submit", command=submit).grid(row=12, column=0, columnspan=3)
+tk.Button(app, text="Submit", command=submit).grid(row=14, column=1)
 
 app.mainloop()

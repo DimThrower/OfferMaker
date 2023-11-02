@@ -17,6 +17,10 @@ filled_TREC_file_path_HOU = r'C:\Script\PYAO-main\Contracts\HOU'
 filled_TREC_file_path_SA = r'C:\Script\PYAO-main\Contracts\SA'
 contract_save_path = r"C:\Users\charl\Desktop\Trash"
 
+class TREC:
+    signed = os.path.join(current_directory, 'Signed 1-4 Trec Contract.pdf')
+    not_signed = os.path.join(current_directory, 'Blank 1-4 Trec Contract.pdf')
+
 IMAP_SERVER = 'imap.gmail.com'
 IMAP_PORT = 993
 EMAIL_ADDRESS = os.getenv('EMAIL_ADDRESS')

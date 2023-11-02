@@ -1,3 +1,6 @@
+from selenium.common.exceptions import NoSuchElementException
+
+
 class URLs:
     har = 'https://matrix.harmls.com/Matrix/SavedSearches.aspx'
 
@@ -53,142 +56,183 @@ class Buttons:
     fitpage = '#pageFitOption'
 
 class TextFields:
-    seller = '#pdfjs_internal_id_1499R'
-    buyer = '#pdfjs_internal_id_1500R'
-    lot = '#pdfjs_internal_id_1501R'
-    block = '#pdfjs_internal_id_1502R'
-    subdivision = '#pdfjs_internal_id_1503R'
-    city = '#pdfjs_internal_id_1504R'
-    county = '#pdfjs_internal_id_1505R'
-    address = '#pdfjs_internal_id_1506R'
-    exclusions = '#pdfjs_internal_id_1508R'
-    cash_portion = '#pdfjs_internal_id_1509R'
-    finance_portion = '#pdfjs_internal_id_1514R'
-    total_price = '#pdfjs_internal_id_1515R'
-    escrow_agent = '#pdfjs_internal_id_282R'
-    title_address = '#pdfjs_internal_id_284R'
-    em = '#pdfjs_internal_id_279R'
-    om = '#pdfjs_internal_id_277R'
-    add_em = '#pdfjs_internal_id_278R'
-    add_em_days = '#pdfjs_internal_id_283R'
-    option_days = '#pdfjs_internal_id_281R'
-    title_company_name = '#pdfjs_internal_id_293R'
-    survey_days = '#pdfjs_internal_id_308R'
-    objections = '#pdfjs_internal_id_309R'
-    objection_days = '#pdfjs_internal_id_310R'
-    req_notices = '#pdfjs_internal_id_326R'
-    sd_days = '#pdfjs_internal_id_337R'
-    service_contract = '#pdfjs_internal_id_344R'
-    broker_discolsure = '#pdfjs_internal_id_352R'
-    closing_date = '#pdfjs_internal_id_353R'
-    special_prov1 = '#pdfjs_internal_id_360R'
-    special_prov2 = '#pdfjs_internal_id_370R'
-    special_prov3 = '#pdfjs_internal_id_369R'
-    other_exp = '#pdfjs_internal_id_366R'
-    buy_address = '#pdfjs_internal_id_416R'
-    buy_email = '#pdfjs_internal_id_417R'
+    seller = 'Seller Name'
+    buyer = 'Buyer Name'
+    lot = 'Lot'
+    block = 'Block'
+    subdivision = 'Addition'
+    city = 'City Name'
+    county = 'County Name'
+    address = 'Address/ZIP code'
+    exclusions = 'Improvements and accessories to be retained by Seller and removed prior to delivery of posession'
+    cash_portion = 'Amount 3(A)'
+    finance_portion = 'Amount 3B'
+    total_price = 'Amount 3C'
+    escrow_agent = '5A Escrow Agent'
+    title_address = '5A Escrow Agent Address'
+    em = '5A Amount (Earnest Money)'
+    om = '5A Amount (Option Fee)'
+    add_em = '5A(1) Amount'
+    add_em_days = '5A(1) Number of Days'
+    option_days = '5B Number of Days'
+    title_company_name = 'Name of Title Company'
+    survey_days = 'Number of Days (6(C)2)'
+    objections = '6D Prohibitions on use or activity'
+    objection_days = 'Number of Days 6D(ii)'
+    req_notices = '6E(11) Required Notices 1'
+    sd_days = 'Number of Days'
+    service_contract = '7H Amount'
+    broker_discolsure = '8A Brokers and Sales Agent Disclosure'
+    closing_date = 'Date Number 1'
+    special_prov1 = '11 Special Provisions'
+    special_prov2 = '11 Special Provisions Blank 1'
+    special_prov3 = '11 Special Provisions Blank 2'
+    other_exp = '12A(1)(b) Amount'
+    buy_address = 'Buyer Address 1'
+    buy_email = 'Buyer Email/Fax Number 1'
 
-    prop_add1 = '#pdfjs_internal_id_280R'
-    prop_add2 = '#pdfjs_internal_id_301R'
-    prop_add3 = '#pdfjs_internal_id_324R'
-    prop_add4 = '#pdfjs_internal_id_346R'
-    prop_add5 = '#pdfjs_internal_id_362R'
-    prop_add6 = '#pdfjs_internal_id_383R'
-    prop_add7 = '#pdfjs_internal_id_411R'
-    prop_add8 = '#pdfjs_internal_id_458R'
-    prop_add9 = '#pdfjs_internal_id_490R'
-    prop_add10 = '#pdfjs_internal_id_545R'
+    prop_add1 = 'Address of Property Page 2'
+    prop_add2 = 'Address of Property Page 3'
+    prop_add3 = 'Address of Property Page 4'
+    prop_add4 = 'Address of Property Page 5'
+    prop_add5 = 'Address of Property Page 6'
+    prop_add6 = 'Address of Property Page 7'
+    prop_add7 = 'Address of Property Page 8'
+    prop_add8 = 'Address of Property Page 9'
+    prop_add9 = 'Address of Property Page 10'
+    prop_add10 = 'Address of Property Page 11'
                         
-    init_pg1 = '#pdfjs_internal_id_1522R'
-    init_pg2 = '#pdfjs_internal_id_292R'
-    init_pg3 = '#pdfjs_internal_id_320R'
-    init_pg4 = '#pdfjs_internal_id_330R'
-    init_pg5 = '#pdfjs_internal_id_354R'
-    init_pg6 = '#pdfjs_internal_id_364R'
-    init_pg7 = '#pdfjs_internal_id_376R'
-    init_pg8 = '#pdfjs_internal_id_407R'        
+    init_pg1 = 'Buyer 1 Initial Page 1'
+    init_pg2 = 'Buyer 1 Initial Page 2'
+    init_pg3 = 'Buyer 1 Initial Page 3'
+    init_pg4 = 'Buyer 1 Initial Page 4'
+    init_pg5 = 'Buyer 1 Initial Page 5'
+    init_pg6 = 'Buyer 1 Initial Page 6'
+    init_pg7 = 'Buyer 1 Initial Page 7'
+    init_pg8 = 'Buyer 1 Initial Page 8'        
 
 class CheckBoxes:
-    buyer_pay_title_policy = '#pdfjs_internal_id_287R'
-    no_amend_or_del = '#pdfjs_internal_id_295R'
-    buyer_pay_survey = '#pdfjs_internal_id_306R'
-    yes_hoa = '#pdfjs_internal_id_300R'
-    no_hoa = '#pdfjs_internal_id_312R'
-    seller_disclosure = '#pdfjs_internal_id_331R'
-    as_is = '#pdfjs_internal_id_343R'
-    buyer_poss = '#pdfjs_internal_id_361R'
-    hoa_addendum = '#pdfjs_internal_id_421R'
-    lbp_addendum = '#pdfjs_internal_id_441R'
+    buyer_pay_title_policy = 'Buyer’s expense'
+    buyer_pay_title_policy_1 = 'Buyer?s expense'
+    no_amend_or_del = 'Checkbox 6A(8)(i)'
+    buyer_pay_survey = '6C(2) Checkbox'
+    yes_hoa = 'Is checkbox'
+    no_hoa = 'Is not checkbox'
+    seller_disclosure = '7B(2) Buyer has not received the Notice checkbox'
+    as_is = '7D(1) Buyer accepts Property As Is Checkbox'
+    buyer_poss = '10A upon closing and funding'
+    hoa_addendum = 'Addendum for Property Subject to Mandatory Membership in a Property Owners Association'
+    lbp_addendum = 'Addendum for Seller\'s Disclosure of Information on Lead-based Paint and Lead-Based Paint Hazards as Required by Federal Law'
 
 text_field = TextFields()
 check_box = CheckBoxes()
 btns = Buttons()
 
-class Elements:
+class TREC_el_pg_1:
     def __init__(self, browser):
-        
-        self.seller = browser.find_element(By.CSS_SELECTOR, text_field.seller)
-        self.buyer = browser.find_element(By.CSS_SELECTOR, text_field.buyer)
-        self.lot = browser.find_element(By.CSS_SELECTOR, text_field.lot)
-        self.block = browser.find_element(By.CSS_SELECTOR, text_field.block)
-        self.subdivision = browser.find_element(By.CSS_SELECTOR, text_field.subdivision)
-        self.city = browser.find_element(By.CSS_SELECTOR, text_field.city)
-        self.county = browser.find_element(By.CSS_SELECTOR, text_field.county)
-        self.address = browser.find_element(By.CSS_SELECTOR, text_field.address)
-        self.exclusions = browser.find_element(By.CSS_SELECTOR, text_field.exclusions)
-        self.cash_portion = browser.find_element(By.CSS_SELECTOR, text_field.cash_portion)
-        self.finance_portion = browser.find_element(By.CSS_SELECTOR, text_field.finance_portion)
-        self.total_price = browser.find_element(By.CSS_SELECTOR, text_field.total_price)
-        self.escrow_agent = browser.find_element(By.CSS_SELECTOR, text_field.escrow_agent)
-        self.title_address = browser.find_element(By.CSS_SELECTOR, text_field.title_address)
-        self.em = browser.find_element(By.CSS_SELECTOR, text_field.em)
-        self.om = browser.find_element(By.CSS_SELECTOR, text_field.om)
-        self.add_em = browser.find_element(By.CSS_SELECTOR, text_field.add_em)
-        self.add_em_days = browser.find_element(By.CSS_SELECTOR, text_field.add_em_days)
-        self.op = browser.find_element(By.CSS_SELECTOR, text_field.option_days)
-        self.title_name = browser.find_element(By.CSS_SELECTOR, text_field.title_company_name)
-        self.survey_days = browser.find_element(By.CSS_SELECTOR, text_field.survey_days)
-        self.objections = browser.find_element(By.CSS_SELECTOR, text_field.objections)
-        self.objection_days = browser.find_element(By.CSS_SELECTOR, text_field.objection_days)
-        self.req_notices = browser.find_element(By.CSS_SELECTOR, text_field.req_notices)
-        self.sd_days = browser.find_element(By.CSS_SELECTOR, text_field.sd_days)
-        self.service_contract = browser.find_element(By.CSS_SELECTOR, text_field.service_contract)
-        self.broker_discolsure = browser.find_element(By.CSS_SELECTOR, text_field.broker_discolsure)
-        self.closing_date = browser.find_element(By.CSS_SELECTOR, text_field.closing_date)
-        self.special_prov1 = browser.find_element(By.CSS_SELECTOR, text_field.special_prov1)
-        self.special_prov2 = browser.find_element(By.CSS_SELECTOR, text_field.special_prov2)
-        self.special_prov3 = browser.find_element(By.CSS_SELECTOR, text_field.special_prov3)
-        self.other_exp = browser.find_element(By.CSS_SELECTOR, text_field.other_exp)
-        self.buy_address = browser.find_element(By.CSS_SELECTOR, text_field.buy_address)
-        self.buy_email = browser.find_element(By.CSS_SELECTOR, text_field.buy_email)
+        # PAGE 1
+        self.seller = browser.find_element(By.NAME, text_field.seller)
+        self.buyer = browser.find_element(By.NAME, text_field.buyer)
+        self.lot = browser.find_element(By.NAME, text_field.lot)
+        self.block = browser.find_element(By.NAME, text_field.block)
+        self.subdivision = browser.find_element(By.NAME, text_field.subdivision)
+        self.city = browser.find_element(By.NAME, text_field.city)
+        self.county = browser.find_element(By.NAME, text_field.county)
+        self.address = browser.find_element(By.NAME, text_field.address)
+        self.exclusions = browser.find_element(By.NAME, text_field.exclusions)
+        self.cash_portion = browser.find_element(By.NAME, text_field.cash_portion)
+        self.finance_portion = browser.find_element(By.NAME, text_field.finance_portion)
+        self.total_price = browser.find_element(By.NAME, text_field.total_price)
+        self.init_pg1 = browser.find_element(By.NAME, text_field.init_pg1)
 
-        self.prop_add1 = browser.find_element(By.CSS_SELECTOR, text_field.prop_add1)
-        self.prop_add2 = browser.find_element(By.CSS_SELECTOR, text_field.prop_add2)
-        self.prop_add3 = browser.find_element(By.CSS_SELECTOR, text_field.prop_add3)
-        self.prop_add4 = browser.find_element(By.CSS_SELECTOR, text_field.prop_add4)
-        self.prop_add5 = browser.find_element(By.CSS_SELECTOR, text_field.prop_add5)
-        self.prop_add6 = browser.find_element(By.CSS_SELECTOR, text_field.prop_add6)
-        self.prop_add7 = browser.find_element(By.CSS_SELECTOR, text_field.prop_add7)
-        self.prop_add8 = browser.find_element(By.CSS_SELECTOR, text_field.prop_add8)
-        self.prop_add9 = browser.find_element(By.CSS_SELECTOR, text_field.prop_add9)
+class TREC_el_pg_2:
+    def __init__(self, browser):
+        # PAGE 2
+        self.prop_add1 = browser.find_element(By.NAME, text_field.prop_add1)
+        self.escrow_agent = browser.find_element(By.NAME, text_field.escrow_agent)
+        self.title_address = browser.find_element(By.NAME, text_field.title_address)
+        self.em = browser.find_element(By.NAME, text_field.em)
+        self.om = browser.find_element(By.NAME, text_field.om)
+        self.add_em = browser.find_element(By.NAME, text_field.add_em)
+        self.add_em_days = browser.find_element(By.NAME, text_field.add_em_days)
+        self.option_days = browser.find_element(By.NAME, text_field.option_days)
+        self.title_name = browser.find_element(By.NAME, text_field.title_company_name)
+        try:
+            self.buyer_pay_title_policy = browser.find_element(By.NAME, check_box.buyer_pay_title_policy)
+        except NoSuchElementException:
+            self.buyer_pay_title_policy = browser.find_element(By.NAME, check_box.buyer_pay_title_policy_1)
+        self.no_amend_or_del = browser.find_element(By.NAME, check_box.no_amend_or_del)
+        self.init_pg2 = browser.find_element(By.NAME, text_field.init_pg2)
 
-        self.init_pg1 = browser.find_element(By.CSS_SELECTOR, text_field.init_pg1)
-        self.init_pg2 = browser.find_element(By.CSS_SELECTOR, text_field.init_pg2)
-        self.init_pg3 = browser.find_element(By.CSS_SELECTOR, text_field.init_pg3)
-        self.init_pg4 = browser.find_element(By.CSS_SELECTOR, text_field.init_pg4)
-        self.init_pg5 = browser.find_element(By.CSS_SELECTOR, text_field.init_pg5)
-        self.init_pg6 = browser.find_element(By.CSS_SELECTOR, text_field.init_pg6)
-        self.init_pg7 = browser.find_element(By.CSS_SELECTOR, text_field.init_pg7)
-        self.init_pg8 = browser.find_element(By.CSS_SELECTOR, text_field.init_pg8)
+class TREC_el_pg_3:
+    def __init__(self, browser):
+        #PAGE 3
+        self.prop_add2 = browser.find_element(By.NAME, text_field.prop_add2)
+        self.buyer_pay_survey = browser.find_element(By.NAME, check_box.buyer_pay_survey)
+        self.survey_days = browser.find_element(By.NAME, text_field.survey_days)
+        self.objections = browser.find_element(By.NAME, text_field.objections)
+        self.objection_days = browser.find_element(By.NAME, text_field.objection_days)
+        self.yes_hoa = browser.find_element(By.NAME, check_box.yes_hoa)
+        self.no_hoa = browser.find_element(By.NAME, check_box.no_hoa)
+        self.init_pg3 = browser.find_element(By.NAME, text_field.init_pg3)
 
+class TREC_el_pg_4:
+    def __init__(self, browser):
+        #PAGE 4
+        self.prop_add3 = browser.find_element(By.NAME, text_field.prop_add3)
+        self.req_notices = browser.find_element(By.NAME, text_field.req_notices)
+        self.seller_disclosure = browser.find_element(By.NAME, check_box.seller_disclosure)
+        self.sd_days = browser.find_element(By.NAME, text_field.sd_days)
+        self.init_pg4 = browser.find_element(By.NAME, text_field.init_pg4)
 
-        self.buyer_pay_title_policy = browser.find_element(By.CSS_SELECTOR, check_box.buyer_pay_title_policy)
-        self.no_amend_or_del = browser.find_element(By.CSS_SELECTOR, check_box.no_amend_or_del)
-        self.buyer_pay_survey = browser.find_element(By.CSS_SELECTOR, check_box.buyer_pay_survey)
-        self.yes_hoa = browser.find_element(By.CSS_SELECTOR, check_box.yes_hoa)
-        self.no_hoa = browser.find_element(By.CSS_SELECTOR, check_box.no_hoa)
-        self.sd = browser.find_element(By.CSS_SELECTOR, check_box.sd)
-        self.as_is = browser.find_element(By.CSS_SELECTOR, check_box.as_is)
-        self.buyer_poss = browser.find_element(By.CSS_SELECTOR, check_box.buyer_poss)
-        self.hoa_addendum = browser.find_element(By.CSS_SELECTOR, check_box.hoa_addendum)
-        self.lbp_addendum = browser.find_element(By.CSS_SELECTOR, check_box.lbp_addendum)
+class TREC_el_pg_5:
+    def __init__(self, browser):
+        #PAGE 5
+        self.prop_add4 = browser.find_element(By.NAME, text_field.prop_add4)
+        self.as_is = browser.find_element(By.NAME, check_box.as_is)
+        self.service_contract = browser.find_element(By.NAME, text_field.service_contract)
+        self.broker_discolsure = browser.find_element(By.NAME, text_field.broker_discolsure)
+        self.closing_date = browser.find_element(By.NAME, text_field.closing_date)
+        self.init_pg5 = browser.find_element(By.NAME, text_field.init_pg5)
+
+class TREC_el_pg_6:
+    def __init__(self, browser):
+        #PAGE 6
+        self.prop_add5 = browser.find_element(By.NAME, text_field.prop_add5)
+        self.buyer_poss = browser.find_element(By.NAME, check_box.buyer_poss)
+        self.special_prov1 = browser.find_element(By.NAME, text_field.special_prov1)
+        self.special_prov2 = browser.find_element(By.NAME, text_field.special_prov2)
+        self.special_prov3 = browser.find_element(By.NAME, text_field.special_prov3)
+        self.other_exp = browser.find_element(By.NAME, text_field.other_exp)
+        self.init_pg6 = browser.find_element(By.NAME, text_field.init_pg6)
+
+class TREC_el_pg_7:
+    def __init__(self, browser):
+        #PAGE 7
+        self.prop_add6 = browser.find_element(By.NAME, text_field.prop_add6)
+        self.init_pg7 = browser.find_element(By.NAME, text_field.init_pg7)
+
+class TREC_el_pg_8:
+    def __init__(self, browser):
+        #PAGE 8
+        self.prop_add7 = browser.find_element(By.NAME, text_field.prop_add7)
+        self.buy_address = browser.find_element(By.NAME, text_field.buy_address)
+        self.buy_email = browser.find_element(By.NAME, text_field.buy_email)
+        self.init_pg8 = browser.find_element(By.NAME, text_field.init_pg8)
+        self.hoa_addendum = browser.find_element(By.NAME, check_box.hoa_addendum)
+        self.lbp_addendum = browser.find_element(By.NAME, check_box.lbp_addendum)
+
+class TREC_el_pg_9:
+    def __init__(self, browser):
+        #PAGE 9
+        self.prop_add8 = browser.find_element(By.NAME, text_field.prop_add8)
+
+class TREC_el_pg_10:
+    def __init__(self, browser):
+        #PAGE 10
+        self.prop_add9 = browser.find_element(By.NAME, text_field.prop_add9)
+
+class TREC_el_pg_11:
+    def __init__(self, browser):
+        #PAGE 10
+        self.prop_add10 = browser.find_element(By.NAME, text_field.prop_add10)

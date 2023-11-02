@@ -345,7 +345,7 @@ def generate_closing_date(days_to_close=14):
 def rearrange_name(full_name):
     # Split the full name into parts using a comma and space
     name_parts = full_name.split(' ')
-    print(name_parts)
+    #print(name_parts)
 
     if len(name_parts) >= 2:
         # Extract the first and last name
