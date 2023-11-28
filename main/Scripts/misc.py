@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 import imaplib, subprocess
 import email
 from main.Static import settings
-import inspect
+import inspect, re
 
 #This will help get the line being called
 def line():
@@ -359,7 +359,7 @@ def rearrange_name(full_name):
         # Return the original name if it can't be split as expected
         return full_name
 
-def generate_closing_date(days_to_close=14):
+def generate_closing_date(days_to_close=21):
     # Get today's date
     today = datetime.now()
 
@@ -378,3 +378,10 @@ def generate_closing_date(days_to_close=14):
 
 def has_non_empty_string_or_true(tuple):
     return any(x and (isinstance(x, str) and x.strip() != "" or x is True) for x in tuple)
+
+def convert_str_2_float(input_string):
+    # This regex pattern will match any character that is NOT a digit or a period
+    pattern = r'[^\d.]+'
+    # Substitute all matched characters with an empty string
+    cleaned_string = re.sub(pattern, '', input_string)
+    return float(cleaned_string)

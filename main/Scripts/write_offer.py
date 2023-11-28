@@ -207,7 +207,7 @@ def create_offer(doc_name, address, seller_name,
         el_pg_5.service_contract.send_keys(
             text_none_check(na))
         el_pg_5.broker_discolsure.send_keys(
-            text_none_check(""))#'Buyer has an active realtor license'))
+            text_none_check(na))#'Buyer has an active realtor license'))
         # Set the closing date
         cd = closing_date
         el_pg_5.closing_date.send_keys(

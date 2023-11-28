@@ -39,6 +39,7 @@ class Selectors:
     mls_id_html = '#wrapperTable > tbody > tr > td > span > table > tbody > tr:nth-child(5) > td.display.d48m10 > table > tbody > tr.d48m11 > td.d48m15 > table > tbody > tr:nth-child(3) > td.d48m27 > span'
     tax_drp_dwn = '#m_topNavList > li:nth-child(7) > ul'
     tax_dom_check = '#mat-expansion-panel-header-12 > span.mat-content.ng-tns-c92-41 > mat-panel-title'
+    new_postpone_btn = '#NewsDetailPostpone'
 
     # Realist Selectors
     realist_btn = "#m_topNavList > li:nth-child(7) > ul > li:nth-child(1) > a"

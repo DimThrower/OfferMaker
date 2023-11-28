@@ -70,6 +70,10 @@ def tax_scrape(address):
         # Switch back to new tab
         browser.switch_to.window(browser.window_handles[0])
 
+        news_postpone_btn = misc.check_element_exists_BLOCK(browser, css_selector=selectors.new_postpone_btn, timeout=2)
+        if news_postpone_btn:
+            HTML_ACTIONS.click(browser, wait=1, e_type="css", element=selectors.new_postpone_btn, errmsg="Could not click postpone button")
+
         # Find the tax drop down
         tax_drp_dwn = browser.find_element(By.CSS_SELECTOR, selectors.tax_drp_dwn)
 
@@ -99,7 +103,7 @@ def tax_scrape(address):
         HTML_ACTIONS.click(browser, wait=1, e_type="css", element=selectors.realist_submit_btn, errmsg=f'({inspect.currentframe().f_lineno}) - Could not click Realist Submit Button')
 
         # Wait for tax page to load
-        misc.check_element_exists_BLOCK(browser, css_selector=selectors.tax_dom_check, timeout=60)
+        misc.check_element_exists_BLOCK(browser, css_selector=selectors.tax_dom_check, timeout=1)
 
         # Get the Address Title
         address_title = misc.check_element_exists_BLOCK(browser, css_selector=selectors.realist_address_header)

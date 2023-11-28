@@ -12,14 +12,22 @@ load_env_var()
 
 chromeDrivePath = os.path.join(current_directory, 'chromedriver.exe')
 firefoxDrivePath = r'C:\Program Files\Mozilla Firefox\firefox.exe'
-blank_TREC_file_path = r'file://C:/Script/PYAO-main/Contracts/Blank 1-4 Trec Contract.pdf'
-filled_TREC_file_path_HOU = r'C:\Script\PYAO-main\Contracts\HOU'
-filled_TREC_file_path_SA = r'C:\Script\PYAO-main\Contracts\SA'
+# blank_TREC_file_path = r'file://C:/Script/PYAO-main/Contracts/Blank 1-4 Trec Contract.pdf'
+# filled_TREC_file_path_HOU = r'C:\Script\PYAO-main\Contracts\HOU'
+# filled_TREC_file_path_SA = r'C:\Script\PYAO-main\Contracts\SA'
 contract_save_path = r"C:\Users\charl\Desktop\Trash"
 
 class TREC:
     signed = os.path.join(current_directory, 'Signed 1-4 Trec Contract.pdf')
+    signed_with_pof = os.path.join(current_directory, 'Signed 1-4 Trec Contract with POF.pdf')
     not_signed = os.path.join(current_directory, 'Blank 1-4 Trec Contract.pdf')
+    backside = os.path.join(current_directory, 'Backside Package.pdf')
+
+class TREC_types:
+    signed = "Signed"
+    signed_with_POF = "Signed w/ POF"
+    not_signed = "Not Signed"
+    backside = "Backside"
 
 IMAP_SERVER = 'imap.gmail.com'
 IMAP_PORT = 993
