@@ -32,7 +32,7 @@ def create_offer(doc_name, address, seller_name,
         options = Options()
 
         # Run browser in headless mode
-        options.add_argument("--headless")
+        # options.add_argument("--headless")
 
         # Create WebDriver instance
         browser = webdriver.Firefox(firefox_binary=binary, options=options)

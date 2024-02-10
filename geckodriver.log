@@ -5483,3 +5483,2220 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: file://.
 1701193217303	Marionette	INFO	Stopped listening on port 64778
 Dynamically enable window occlusion 1
 console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1701380340151	geckodriver	INFO	Listening on 127.0.0.1:57405
+1701380343196	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "574 ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofileaCrRPi"
+*** You are running in headless mode.
+1701380394189	geckodriver	INFO	Listening on 127.0.0.1:57550
+1701380397239	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "575 ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofileRj4OGm"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701380397736	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701380397829	Marionette	INFO	Listening on port 57560
+WebDriver BiDi listening on ws://127.0.0.1:57551
+Read port: 57560
+1701380398077	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57551/devtools/browser/00feacfa-4a64-4e85-8b1a-4cf18cc7020f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1701380400771	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1701380401507	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701380402232	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701380402956	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701380403729	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701380404453	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701380405195	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701380405984	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701380406699	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701380407414	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701380408196	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1701380423423	Marionette	INFO	Stopped listening on port 57560
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1701380500066	geckodriver	INFO	Listening on 127.0.0.1:57696
+1701380503111	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "576 ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofilezyHvjW"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701380503597	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701380503693	Marionette	INFO	Listening on port 57706
+WebDriver BiDi listening on ws://127.0.0.1:57697
+Read port: 57706
+1701380503924	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57697/devtools/browser/b56b61c0-0dd2-44c8-9095-61fee5f6a019
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1701380506578	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1701380507331	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701380508074	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701380508787	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701380509557	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701380510282	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701380511024	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701380511797	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701380512537	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701380513262	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701380514017	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1701380528722	Marionette	INFO	Stopped listening on port 57706
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1701386620273	geckodriver	INFO	Listening on 127.0.0.1:59524
+1701386623311	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "595 ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofileRoXMMq"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701386623762	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701386623908	Marionette	INFO	Listening on port 59533
+WebDriver BiDi listening on ws://127.0.0.1:59525
+Read port: 59533
+1701386624237	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59525/devtools/browser/8761400c-8859-44a8-85cb-7b758ffa8220
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1701386627455	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1701386628206	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701386628932	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701386629660	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701386630423	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701386631176	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701386631948	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701386632685	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701386633412	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701386634123	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701386634903	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1701386649461	Marionette	INFO	Stopped listening on port 59533
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1701622273456	geckodriver	INFO	Listening on 127.0.0.1:62928
+1701622276502	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "629 ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofileEtU4Fj"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701622277082	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701622277177	Marionette	INFO	Listening on port 62937
+WebDriver BiDi listening on ws://127.0.0.1:62929
+Read port: 62937
+1701622277433	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62929/devtools/browser/6d69dce7-2497-495f-82be-46121819cc01
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1701622280052	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1701622280828	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701622281552	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701622282284	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701622283049	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701622283767	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701622284495	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701622285269	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701622285993	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701622286716	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1701622287485	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1701622302034	Marionette	INFO	Stopped listening on port 62937
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702334294967	geckodriver	INFO	Listening on 127.0.0.1:63033
+1702334298043	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "630 ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofile1UN2VS"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702334299099	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702334299319	Marionette	INFO	Listening on port 63063
+WebDriver BiDi listening on ws://127.0.0.1:63034
+Read port: 63063
+1702334299867	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:63034/devtools/browser/128373ce-b215-494b-80f6-1772edc637d0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702334303582	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702334304319	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702334305155	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702334305879	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702334306637	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702334307410	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702334308133	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702334308861	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702334309581	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702334310302	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702334311072	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702334327615	Marionette	INFO	Stopped listening on port 63063
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702479868561	geckodriver	INFO	Listening on 127.0.0.1:61098
+1702479871605	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "610 ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofileD8MreM"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702479872248	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702479872349	Marionette	INFO	Listening on port 61107
+WebDriver BiDi listening on ws://127.0.0.1:61099
+Read port: 61107
+1702479872607	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:61099/devtools/browser/ce9e5a89-a43f-4ae5-a765-58bb60eccfa9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702479875270	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702479876002	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702479876721	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702479877489	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702479878211	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702479878930	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702479879651	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702479880424	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702479881147	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702479881874	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702479882644	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702479903035	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1702479916459	Marionette	INFO	Stopped listening on port 61107
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702480380827	geckodriver	INFO	Listening on 127.0.0.1:61854
+1702480383865	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "618 ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofilevi4Yy2"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702480384357	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702480384437	Marionette	INFO	Listening on port 61863
+WebDriver BiDi listening on ws://127.0.0.1:61855
+Read port: 61863
+1702480384660	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:61855/devtools/browser/e102d9c3-af8e-44be-8c28-7eedb8b305b9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702480387209	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702480387941	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480388675	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480389428	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480390176	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480390898	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480391630	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480392397	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480393120	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480393848	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480394612	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702480409041	Marionette	INFO	Stopped listening on port 61863
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702480724106	geckodriver	INFO	Listening on 127.0.0.1:62152
+1702480727136	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "621 ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofileiT84hT"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702480727550	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702480727628	Marionette	INFO	Listening on port 62162
+WebDriver BiDi listening on ws://127.0.0.1:62153
+Read port: 62162
+1702480727866	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62153/devtools/browser/1804fb7e-aa5c-4822-bf02-e3c74ecb6723
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702480730450	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702480731183	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480731918	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480732642	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480733409	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480734125	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480734904	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480735674	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480736416	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480737134	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480737890	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702480754466	Marionette	INFO	Stopped listening on port 62162
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702480899663	geckodriver	INFO	Listening on 127.0.0.1:62423
+1702480902695	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "624 ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofileMaXflF"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702480903122	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702480903207	Marionette	INFO	Listening on port 62434
+WebDriver BiDi listening on ws://127.0.0.1:62424
+Read port: 62434
+1702480903423	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62424/devtools/browser/a95050ca-e5b2-4974-846b-e8baba9e5c01
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702480906091	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702480906827	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480907561	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480908292	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480909061	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480909783	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480910538	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480911310	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480912045	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480912766	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702480913537	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702480928047	Marionette	INFO	Stopped listening on port 62434
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702494040026	geckodriver	INFO	Listening on 127.0.0.1:51053
+1702494043101	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "510 ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofilewe29G9"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702494043636	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702494043729	Marionette	INFO	Listening on port 51062
+WebDriver BiDi listening on ws://127.0.0.1:51054
+Read port: 51062
+1702494043949	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:51054/devtools/browser/40ade427-9dbe-4012-a230-bd03539ab89c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702494046587	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702494047373	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702494048103	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702494048840	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702494049595	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702494050318	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702494051089	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702494051862	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702494052598	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702494053320	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702494054087	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702494068830	Marionette	INFO	Stopped listening on port 51062
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702938400243	geckodriver	INFO	Listening on 127.0.0.1:57658
+1702938403289	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "576 ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofileOmwI3I"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702938403865	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702938403968	Marionette	INFO	Listening on port 57667
+WebDriver BiDi listening on ws://127.0.0.1:57659
+Read port: 57667
+1702938404245	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57659/devtools/browser/d24d1ad0-98a6-4d89-8dc5-1bdac4479c9e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702938407165	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702938407946	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702938408673	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702938409402	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702938410159	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702938410875	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702938411628	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702938412365	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702938413087	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702938413811	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1702938414574	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1702938430496	Marionette	INFO	Stopped listening on port 57667
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1703010013586	geckodriver	INFO	Listening on 127.0.0.1:64291
+1703010016645	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "642 ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofileu1Y9Ey"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703010017211	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703010017310	Marionette	INFO	Listening on port 64301
+WebDriver BiDi listening on ws://127.0.0.1:64292
+Read port: 64301
+1703010017573	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:64292/devtools/browser/d4880880-1de1-4205-b999-864d90bf69b2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1703010020704	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1703010021475	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703010022232	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703010022955	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703010023726	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703010024454	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703010025207	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703010025935	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703010026656	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703010027385	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703010028159	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1703010044438	Marionette	INFO	Stopped listening on port 64301
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1703018028407	geckodriver	INFO	Listening on 127.0.0.1:51128
+1703018031478	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "511 ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofileWXVrZA"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703018032117	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703018032214	Marionette	INFO	Listening on port 51138
+WebDriver BiDi listening on ws://127.0.0.1:51129
+Read port: 51138
+1703018032472	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:51129/devtools/browser/56c1ca18-2cd6-493b-ada1-dad916447420
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1703018035067	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1703018035846	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703018036581	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703018037305	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703018038070	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703018038787	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703018039558	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703018040330	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703018041051	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703018041772	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703018042542	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1703018057678	Marionette	INFO	Stopped listening on port 51138
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1703723102695	geckodriver	INFO	Listening on 127.0.0.1:62073
+1703723105738	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "620 ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofile9DDqB3"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703723106400	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703723106502	Marionette	INFO	Listening on port 62082
+Read port: 62082
+WebDriver BiDi listening on ws://127.0.0.1:62074
+1703723106597	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62074/devtools/browser/f28990aa-cc65-459d-9653-a69212303b7c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1703723109402	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1703723110200	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703723110944	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703723111676	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703723112426	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703723113150	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703723113887	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703723114645	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703723115367	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703723116089	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703723116865	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1703723137137	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703723149534	Marionette	INFO	Stopped listening on port 62082
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1703723282477	geckodriver	INFO	Listening on 127.0.0.1:62220
+1703723285544	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62221" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofileEsPOpb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703723286003	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703723286092	Marionette	INFO	Listening on port 62229
+Read port: 62229
+WebDriver BiDi listening on ws://127.0.0.1:62221
+1703723286187	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62221/devtools/browser/c5481a52-dea0-44fc-875a-842871d6c618
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1703723289848	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1703723290613	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703723291349	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703723292069	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703723292796	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703723293510	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703723294229	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703723295014	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703723295731	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703723296450	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1703723297229	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1703723316836	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703723330877	Marionette	INFO	Stopped listening on port 62229
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1704918471131	geckodriver	INFO	Listening on 127.0.0.1:52233
+1704918474186	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52234" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofileehzWVb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1704918474762	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1704918474876	Marionette	INFO	Listening on port 52244
+WebDriver BiDi listening on ws://127.0.0.1:52234
+Read port: 52244
+1704918475143	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52234/devtools/browser/6f2a2757-3326-4add-b41d-15a2d91011ee
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1704918479053	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1704918479799	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704918480530	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704918481289	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704918482026	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704918482757	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704918483556	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704918484320	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704918485038	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704918485764	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704918486535	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1704918501167	Marionette	INFO	Stopped listening on port 52244
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1704918561968	geckodriver	INFO	Listening on 127.0.0.1:52366
+1704918565002	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52367" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofileyPiJ6j"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1704918565596	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1704918565723	Marionette	INFO	Listening on port 52379
+WebDriver BiDi listening on ws://127.0.0.1:52367
+Read port: 52379
+1704918566031	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52367/devtools/browser/b3e42dad-3779-4669-9f91-c62a87ce44eb
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1704918570008	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1704918570801	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704918571565	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704918572288	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704918573010	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704918573733	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704918574504	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704918575225	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704918575949	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704918576668	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704918577449	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1704918592778	Marionette	INFO	Stopped listening on port 52379
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1704919091336	geckodriver	INFO	Listening on 127.0.0.1:52564
+1704919094400	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52565" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofilegBlwsT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1704919094873	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1704919094979	Marionette	INFO	Listening on port 52578
+WebDriver BiDi listening on ws://127.0.0.1:52565
+Read port: 52578
+1704919095196	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52565/devtools/browser/ad0abcbc-c565-44fc-a316-6c04c3429223
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1704919098858	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1704919099581	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704919100315	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704919101035	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704919101798	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704919102518	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704919103286	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704919104062	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704919104785	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704919105516	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704919106282	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1704919120908	Marionette	INFO	Stopped listening on port 52578
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1704919262562	geckodriver	INFO	Listening on 127.0.0.1:52779
+1704919265593	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52780" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofileHwXiTV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1704919266042	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1704919266150	Marionette	INFO	Listening on port 52788
+WebDriver BiDi listening on ws://127.0.0.1:52780
+Read port: 52788
+1704919266424	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52780/devtools/browser/86eec8a0-331b-48e7-9792-6ca9eb4a2d51
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1704919270159	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1704919270888	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704919271602	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704919272319	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704919273038	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704919273758	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704919274483	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704919275200	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704919275919	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704919276643	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1704919277411	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1704919292098	Marionette	INFO	Stopped listening on port 52788
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1705433285699	geckodriver	INFO	Listening on 127.0.0.1:62411
+1705433288787	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62412" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofileEmluRe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705433289492	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1705433289640	Marionette	INFO	Listening on port 62423
+WebDriver BiDi listening on ws://127.0.0.1:62412
+Read port: 62423
+1705433289982	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62412/devtools/browser/6f3bf6e7-cc84-41c2-b02a-8fbde6ca7ae6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1705433294884	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1705433295643	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1705433296372	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1705433297098	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1705433297826	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1705433298592	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1705433299312	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1705433300044	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1705433300774	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1705433301503	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1705433302262	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1705433317310	Marionette	INFO	Stopped listening on port 62423
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 324))
+1705433323304	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, channelStatus: 2153390067, errorCode: 2, reason: error
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1705433520922	geckodriver	INFO	Listening on 127.0.0.1:62696
+1705433523983	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62697" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofileKl66Ux"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1705433524640	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1705433524769	Marionette	INFO	Listening on port 62705
+WebDriver BiDi listening on ws://127.0.0.1:62697
+Read port: 62705
+1705433525038	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62697/devtools/browser/9635ec20-59fb-4836-bacf-23fcf5158a4d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1705433529393	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1705433530119	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1705433530850	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1705433531642	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1705433532410	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1705433533168	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1705433533928	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1705433534668	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1705433535389	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1705433536104	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1705433536883	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1705433552124	Marionette	INFO	Stopped listening on port 62705
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1706129068979	geckodriver	INFO	Listening on 127.0.0.1:52820
+1706129072040	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52821" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofileqwh7F8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706129072655	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706129072769	Marionette	INFO	Listening on port 52829
+WebDriver BiDi listening on ws://127.0.0.1:52821
+Read port: 52829
+1706129073093	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52821/devtools/browser/4a5a8114-22b2-4b95-ad27-0ec1be6ebafd
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1706129076989	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1706129077755	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706129078477	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706129079198	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706129079966	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706129080684	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706129081438	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706129082161	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706129082886	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706129083614	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706129084337	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:466:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1706129099825	Marionette	INFO	Stopped listening on port 52829
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1706555448823	geckodriver	INFO	Listening on 127.0.0.1:50931
+1706555451884	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50932" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofiledK3M3Y"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706555452380	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706555452491	Marionette	INFO	Listening on port 50940
+WebDriver BiDi listening on ws://127.0.0.1:50932
+Read port: 50940
+1706555452778	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50932/devtools/browser/97b77b74-487e-4196-9781-3ffc36d7c1bb
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1706555456322	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1706555457039	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706555457759	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706555458536	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706555459254	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706555459993	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706555460752	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706555461472	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706555462193	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706555462911	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706555463653	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1706555478185	Marionette	INFO	Stopped listening on port 50940
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1706734852313	geckodriver	INFO	Listening on 127.0.0.1:62514
+1706734855384	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62515" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofileuVXeFJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706734855944	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706734856057	Marionette	INFO	Listening on port 62523
+WebDriver BiDi listening on ws://127.0.0.1:62515
+Read port: 62523
+1706734856339	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62515/devtools/browser/1baa9c18-3036-4602-9a2b-1234a2989f50
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1706734860056	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1706734860835	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706734861598	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706734862333	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706734863127	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706734863848	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706734864568	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706734865301	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706734866023	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706734866743	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706734867474	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1706734882013	Marionette	INFO	Stopped listening on port 62523
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1706891595563	geckodriver	INFO	Listening on 127.0.0.1:57351
+1706891598615	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57352" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofileujmq2f"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1706891599261	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1706891599363	Marionette	INFO	Listening on port 57360
+WebDriver BiDi listening on ws://127.0.0.1:57352
+Read port: 57360
+1706891599645	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57352/devtools/browser/8b9201e5-779f-4906-893b-4311476104d4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1706891603273	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1706891604002	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706891604721	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706891605481	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706891606200	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706891606918	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706891607637	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706891608369	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706891609092	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706891609815	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1706891610539	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1706891625256	Marionette	INFO	Stopped listening on port 57360
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1707016947048	geckodriver	INFO	Listening on 127.0.0.1:63337
+1707016950098	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63338" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofileVkKoUt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707016950578	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1707016950684	Marionette	INFO	Listening on port 63346
+WebDriver BiDi listening on ws://127.0.0.1:63338
+Read port: 63346
+1707016950939	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63338/devtools/browser/78b64d11-23a8-497d-970b-4630d191bb76
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1707016954689	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1707016955411	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707016956160	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707016956928	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707016957647	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707016958368	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707016959118	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707016959892	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707016960659	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707016961430	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707016962152	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1707016976850	Marionette	INFO	Stopped listening on port 63346
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1707020556850	geckodriver	INFO	Listening on 127.0.0.1:63970
+1707020559914	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63971" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofile0gHgzD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707020560507	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1707020560627	Marionette	INFO	Listening on port 63980
+WebDriver BiDi listening on ws://127.0.0.1:63971
+Read port: 63980
+1707020560940	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63971/devtools/browser/dabacf84-b703-43ff-a69d-5d5621acb4cf
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1707020564696	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1707020565480	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707020566252	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707020566968	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707020567685	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707020568404	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707020569137	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707020569869	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707020570620	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707020571390	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707020572111	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1707020586646	Marionette	INFO	Stopped listening on port 63980
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1707021411891	geckodriver	INFO	Listening on 127.0.0.1:64196
+1707021414950	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64197" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofileiwB1cD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707021415535	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1707021415644	Marionette	INFO	Listening on port 64206
+WebDriver BiDi listening on ws://127.0.0.1:64197
+Read port: 64206
+1707021415882	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64197/devtools/browser/fab06da8-c73d-4658-8813-6c1843a6264f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1707021419751	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1707021420516	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707021421238	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707021421967	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707021422683	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707021423466	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707021424213	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707021425004	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707021425774	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707021426545	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707021427308	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1707021441895	Marionette	INFO	Stopped listening on port 64206
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1707023177063	geckodriver	INFO	Listening on 127.0.0.1:64689
+1707023180119	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64690" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofileThUcrI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707023180616	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1707023180733	Marionette	INFO	Listening on port 64698
+WebDriver BiDi listening on ws://127.0.0.1:64690
+Read port: 64698
+1707023181035	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64690/devtools/browser/857e28be-23e9-48b2-b8b2-8a09be3319fe
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1707023184719	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1707023185480	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707023186202	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707023186928	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707023187645	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707023188367	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707023189096	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707023189817	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707023190541	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707023191295	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707023192047	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1707023206680	Marionette	INFO	Stopped listening on port 64698
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1707568302142	geckodriver	INFO	Listening on 127.0.0.1:63655
+1707568305198	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63656" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\charl\\AppData\\Local\\Temp\\rust_mozprofilew6noDH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707568305829	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1707568305933	Marionette	INFO	Listening on port 63664
+WebDriver BiDi listening on ws://127.0.0.1:63656
+Read port: 63664
+1707568306225	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63656/devtools/browser/42c3acf2-1baa-4191-bfb5-2259b2ff4a10
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1707568309874	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1707568310637	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707568311358	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707568312078	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707568312795	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707568313511	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707568314234	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707568314961	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707568315689	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707568316415	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1707568317137	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."
+1707568331612	Marionette	INFO	Stopped listening on port 63664
+Dynamically enable window occlusion 1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: file://."

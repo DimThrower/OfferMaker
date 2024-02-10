@@ -43,7 +43,7 @@ class Selectors:
 
     # Realist Selectors
     realist_btn = "#m_topNavList > li:nth-child(7) > ul > li:nth-child(1) > a"
-    realist_address_input = "#cdk-accordion-child-0 > div > div > div > div > div > div > div > input"
+    realist_address_input = "#cdk-accordion-child-0 > div > fieldset > div > div > div > div > div > input"
     realist_submit_btn = "body > rlst-root > rlst-dashboard > mat-sidenav-container > mat-sidenav > div > rlst-search-panel > div.card.h-100 > div > div > rlst-quick-search > form > div.search-controls > button.btn.btn-default.btn-dark.ml-5.search-btn.btn-lg"
     realist_address_header = "body > rlst-root > rlst-reports > rlst-subheader > header > div > div > h1"
     
@@ -237,3 +237,86 @@ class TREC_el_pg_11:
     def __init__(self, browser):
         #PAGE 10
         self.prop_add10 = browser.find_element(By.NAME, text_field.prop_add10)
+
+
+
+
+class Buttons:
+    save = '#download'
+    previous = '#previous'
+    next = '#next'
+    scale_dpdwn = '#scaleSelect'
+    fitpage = '#pageFitOption'
+
+class TextFields:
+    seller = 'Seller Name'
+    buyer = 'Buyer Name'
+    lot = 'Lot'
+    block = 'Block'
+    subdivision = 'Addition'
+    city = 'City Name'
+    county = 'County Name'
+    address = 'Address/ZIP code'
+    exclusions = 'Improvements and accessories to be retained by Seller and removed prior to delivery of posession'
+    cash_portion = 'Amount 3(A)'
+    finance_portion = 'Amount 3B'
+    total_price = 'Amount 3C'
+    escrow_agent = '5A Escrow Agent'
+    title_address = '5A Escrow Agent Address'
+    em = '5A Amount (Earnest Money)'
+    om = '5A Amount (Option Fee)'
+    add_em = '5A(1) Amount'
+    add_em_days = '5A(1) Number of Days'
+    option_days = '5B Number of Days'
+    title_company_name = 'Name of Title Company'
+    survey_days = 'Number of Days (6(C)2)'
+    objections = '6D Prohibitions on use or activity'
+    objection_days = 'Number of Days 6D(ii)'
+    req_notices = '6E(11) Required Notices 1'
+    sd_days = 'Number of Days'
+    service_contract = '7H Amount'
+    broker_discolsure = '8A Brokers and Sales Agent Disclosure'
+    closing_date = 'Date Number 1'
+    special_prov1 = '11 Special Provisions'
+    special_prov2 = '11 Special Provisions Blank 1'
+    special_prov3 = '11 Special Provisions Blank 2'
+    other_exp = '12A(1)(b) Amount'
+    buy_address = 'Buyer Address 1'
+    buy_email = 'Buyer Email/Fax Number 1'
+
+    prop_add1 = 'Address of Property Page 2'
+    prop_add2 = 'Address of Property Page 3'
+    prop_add3 = 'Address of Property Page 4'
+    prop_add4 = 'Address of Property Page 5'
+    prop_add5 = 'Address of Property Page 6'
+    prop_add6 = 'Address of Property Page 7'
+    prop_add7 = 'Address of Property Page 8'
+    prop_add8 = 'Address of Property Page 9'
+    prop_add9 = 'Address of Property Page 10'
+    prop_add10 = 'Address of Property Page 11'
+                        
+    init_pg1 = 'Buyer 1 Initial Page 1'
+    init_pg2 = 'Buyer 1 Initial Page 2'
+    init_pg3 = 'Buyer 1 Initial Page 3'
+    init_pg4 = 'Buyer 1 Initial Page 4'
+    init_pg5 = 'Buyer 1 Initial Page 5'
+    init_pg6 = 'Buyer 1 Initial Page 6'
+    init_pg7 = 'Buyer 1 Initial Page 7'
+    init_pg8 = 'Buyer 1 Initial Page 8'        
+
+class CheckBoxes:
+    # buyer_pay_title_policy = 'Buyer’s expense'
+    buyer_pay_title_policy = 'Buyer?s expense'
+    no_amend_or_del = 'Checkbox 6A(8)(i)'
+    buyer_pay_survey = '6C(2) Checkbox'
+    yes_hoa = 'Is checkbox'
+    no_hoa = 'Is not checkbox'
+    seller_disclosure = '7B(2) Buyer has not received the Notice checkbox'
+    as_is = '7D(1) Buyer accepts Property As Is Checkbox'
+    buyer_poss = '10A upon closing and funding'
+    hoa_addendum = 'Addendum for Property Subject to Mandatory Membership in a Property Owners Association'
+    lbp_addendum = 'Addendum for Seller\'s Disclosure of Information on Lead-based Paint and Lead-Based Paint Hazards as Required by Federal Law'
+
+text_field = TextFields()
+check_box = CheckBoxes()
+btns = Buttons()

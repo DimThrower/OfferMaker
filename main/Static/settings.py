@@ -28,6 +28,7 @@ class TREC_types:
     signed_with_POF = "Signed w/ POF"
     not_signed = "Not Signed"
     backside = "Backside"
+    
 
 IMAP_SERVER = 'imap.gmail.com'
 IMAP_PORT = 993

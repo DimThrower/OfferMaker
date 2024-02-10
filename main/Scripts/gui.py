@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import Entry, Label, Checkbutton, StringVar
-from main.Scripts import misc, tax_scrape, write_offer
+from main.Scripts import misc, tax_scrape, offer_gen
 import tkinter.messagebox
 from main.Static.settings import TREC, TREC_types
     
@@ -137,7 +137,7 @@ def submit():
         print("County:", county)
         print("Contract Type:", contract_type)
 
-        file_result, file_path = write_offer.create_offer(
+        file_result, file_path = offer_gen.create_offer(
             doc_name=doc_name, 
             address=address, 
             seller_name=seller_name,

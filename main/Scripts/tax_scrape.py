@@ -151,7 +151,7 @@ def tax_scrape(address):
         if subdivision:
             subdivision_val = subdivision.find_element(By.XPATH, './following-sibling::td').text
         else:
-            subdivision_val = ""
+            subdivision_val = "N/A"
 
         if city:
             city_val = city.find_element(By.XPATH, './following-sibling::td').text
